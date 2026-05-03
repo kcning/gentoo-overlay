@@ -1,4 +1,4 @@
-# Copyright 2025 Gentoo Authors
+# Copyright 2025-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -7,7 +7,7 @@ DESCRIPTION="Windows Hello style facial authentication for Linux"
 HOMEPAGE="https://github.com/boltgolt/howdy"
 
 EGIT_REPO_URI="https://github.com/boltgolt/howdy.git"
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{10..14} )
 DISTUTILS_USE_PEP517=no
 EGIT_COMMIT="d3ab99382f88f043d15f15c1450ab69433892a1c"
 inherit distutils-r1 meson
